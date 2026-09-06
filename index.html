@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alfacomp Code — Среда разработки нового поколения с Gemini 3.6</title>
+  <meta name="description" content="Скачать Alfacomp Code: мощный редактор кода с встроенным Gemini 3.6 Flash, автодополнением по Tab, Live Preview HTML и запуском любого кода в 1 клик.">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Background Decorative Light Orbs -->
+  <div class="bg-glow orb-1"></div>
+  <div class="bg-glow orb-2"></div>
+  <div class="bg-glow orb-3"></div>
+
+  <!-- Header / Navigation -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="#" class="brand-logo">
+        <img src="assets/logo.png" alt="ALFACOMP computers" class="logo-img">
+        <span class="brand-text">ALFACOMP <span class="brand-badge">CODE</span></span>
+      </a>
+
+      <nav class="main-nav">
+        <a href="#features">Возможности</a>
+        <a href="#demo">Интерактивное Демо</a>
+        <a href="#comparison">Сравнение</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="https://disk.yandex.ru/d/Z4YdxFvOU2fpBA" target="_blank" rel="noopener" class="btn btn-secondary-glow btn-sm">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Скачать .EXE
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container hero-content">
+      <div class="hero-badge">
+        <span class="pulse-dot"></span>
+        <span>Официальный релиз 2026 • Версия 1.138.0 • Сборка с Gemini 3.6 Flash</span>
+      </div>
+
+      <h1 class="hero-title">
+        Среда разработки, которая <br>
+        <span class="gradient-text">думает и пишет код</span> вместе с вами
+      </h1>
+
+      <p class="hero-subtitle">
+        Специальное издание на ядре VS Code от <strong>ALFACOMP computers</strong>. Встроенный секретный ИИ <strong>Gemini 3.6 Flash</strong>, автодополнение конструкторов по клавише <strong>Tab</strong>, живой предпросмотр HTML и запуск Python/JS в 1 клик по <strong>F5</strong>.
+      </p>
+
+      <div class="hero-actions">
+        <a href="https://disk.yandex.ru/d/Z4YdxFvOU2fpBA" target="_blank" rel="noopener" class="btn btn-primary btn-large glow-effect">
+          <svg class="btn-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.901-1.799"/></svg>
+          <div class="btn-text-group">
+            <span class="btn-main-text">Скачать Alfacomp Code</span>
+            <span class="btn-sub-text">Прямая ссылка • Яндекс.Диск (341 МБ)</span>
+          </div>
+          <svg class="btn-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </a>
+
+        <a href="#demo" class="btn btn-glass btn-large">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+          Попробовать в демо
+        </a>
+      </div>
+
+      <div class="hero-features-strip">
+        <div class="strip-item">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+          <span>Бесплатно навсегда</span>
+        </div>
+        <div class="strip-item">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+          <span>Windows 10 / 11 (64-bit)</span>
+        </div>
+        <div class="strip-item">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+          <span>Всё включено «из коробки»</span>
+        </div>
+        <div class="strip-item">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+          <span>Не требует настройки и VPN</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Demo / IDE Showcase -->
+  <section id="demo" class="demo-section">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag">ЖИВАЯ СИМУЛЯЦИЯ</span>
+        <h2 class="section-title">Испытайте возможности Alfacomp прямо сейчас</h2>
+        <p class="section-desc">Кликайте по вкладкам, нажимайте клавишу Tab для автодополнения и запускайте код кнопкой ▶ F5</p>
+      </div>
+
+      <!-- Mockup Window -->
+      <div class="ide-window">
+        <!-- Title Bar -->
+        <div class="ide-titlebar">
+          <div class="window-controls">
+            <span class="control-dot dot-red"></span>
+            <span class="control-dot dot-yellow"></span>
+            <span class="control-dot dot-green"></span>
+          </div>
+
+          <div class="ide-title">
+            <img src="assets/logo.png" class="ide-title-logo" alt="">
+            <span>Code - Alfacomp • Workspace</span>
+          </div>
+
+          <div class="ide-actions">
+            <button id="runButton" class="action-btn run-btn" title="Запустить код (F5)">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              <span>Запустить (F5)</span>
+            </button>
+            <button id="geminiButton" class="action-btn ai-btn" title="Секретный Gemini (Ctrl+Shift+E)">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+              <span>Gemini AI</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Editor Tabs -->
+        <div class="ide-tabs">
+          <button class="tab active" data-tab="python">
+            <span class="tab-icon py-icon">🐍</span>
+            <span>car.py</span>
+            <span class="tab-badge">Ghost Text</span>
+          </button>
+          <button class="tab" data-tab="html">
+            <span class="tab-icon html-icon">🌐</span>
+            <span>index.html</span>
+            <span class="tab-badge">Live Preview</span>
+          </button>
+          <button class="tab" data-tab="gemini">
+            <span class="tab-icon ai-icon">✨</span>
+            <span>Gemini 3.6</span>
+            <span class="tab-badge hot">Ctrl+Shift+E</span>
+          </button>
+        </div>
+
+        <!-- Editor Workspace Area -->
+        <div class="ide-body">
+          <!-- Python Tab Content -->
+          <div id="tabContentPython" class="tab-content active">
+            <div class="editor-pane">
+              <div class="line-numbers">
+                <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span>
+              </div>
+              <div class="code-area">
+                <div class="code-line"><span class="token-comment"># Нажмите кнопку "Принять [Tab]" или клавишу Tab на клавиатуре!</span></div>
+                <div class="code-line"><span class="token-keyword">class</span> <span class="token-class">Car</span>:</div>
+                <div class="code-line indent-1">
+                  <span id="ghostCode" class="ghost-text">def __init__(self, name, year, model):<br>&nbsp;&nbsp;&nbsp;&nbsp;self.name = name<br>&nbsp;&nbsp;&nbsp;&nbsp;self.year = year<br>&nbsp;&nbsp;&nbsp;&nbsp;self.model = model</span>
+                </div>
+                <div class="code-line" style="margin-top: 10px;"><span class="token-var">my_car</span> = <span class="token-class">Car</span>(<span class="token-string">"Tesla Model S"</span>, <span class="token-number">2026</span>, <span class="token-string">"Plaid"</span>)</div>
+                <div class="code-line"><span class="token-builtin">print</span>(<span class="token-string">f"✅ Машина создана: {my_car.name} ({my_car.year})"</span>)</div>
+              </div>
+
+              <!-- Floating Interactive Tab Trigger -->
+              <div class="tab-helper-card" id="tabHelper">
+                <span class="tab-hint-text">💡 AI предлагает конструктор:</span>
+                <button id="acceptTabBtn" class="btn btn-sm btn-accent">
+                  <kbd>Tab</kbd> Вставить код
+                </button>
+              </div>
+            </div>
+
+            <!-- Terminal Output Drawer -->
+            <div id="terminalDrawer" class="terminal-drawer">
+              <div class="terminal-bar">
+                <span class="term-title">💻 ТЕРМИНАЛ ALFACOMP (PowerShell)</span>
+                <button id="closeTermBtn" class="term-close">✕</button>
+              </div>
+              <div class="terminal-content">
+                <div class="term-line"><span class="term-path">PS C:\Projects\Alfacomp&gt;</span> python car.py</div>
+                <div class="term-line term-success">✅ Машина создана: Tesla Model S (2026)</div>
+                <div class="term-line term-sub">▶ Процесс завершился с кодом 0 (Время: 0.12s)</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- HTML Tab Content -->
+          <div id="tabContentHtml" class="tab-content">
+            <div class="split-view">
+              <div class="editor-pane split-left">
+                <div class="line-numbers">
+                  <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span><span>12</span>
+                </div>
+                <div class="code-area">
+                  <div class="code-line"><span class="token-doctype">&lt;!DOCTYPE html&gt;</span></div>
+                  <div class="code-line"><span class="token-tag">&lt;html <span class="token-attr">lang</span>=<span class="token-string">"ru"</span>&gt;</span></div>
+                  <div class="code-line indent-1"><span class="token-tag">&lt;head&gt;</span></div>
+                  <div class="code-line indent-2"><span class="token-tag">&lt;title&gt;</span>Мой сайт<span class="token-tag">&lt;/title&gt;</span></div>
+                  <div class="code-line indent-1"><span class="token-tag">&lt;/head&gt;</span></div>
+                  <div class="code-line indent-1"><span class="token-tag">&lt;body&gt;</span></div>
+                  <div class="code-line indent-2 highlight-line">
+                    <span class="token-tag">&lt;h1&gt;</span><span id="htmlInputText" contenteditable="true" spellcheck="false">Hello, Alfacomp World!</span><span class="token-tag">&lt;/h1&gt;</span>
+                  </div>
+                  <div class="code-line indent-2"><span class="token-tag">&lt;p&gt;</span>Живой просмотр без перезагрузки!<span class="token-tag">&lt;/p&gt;</span></div>
+                  <div class="code-line indent-1"><span class="token-tag">&lt;/body&gt;</span></div>
+                  <div class="code-line"><span class="token-tag">&lt;/html&gt;</span></div>
+                </div>
+              </div>
+
+              <!-- Live Preview Side -->
+              <div class="preview-pane split-right">
+                <div class="preview-header">
+                  <span class="preview-badge">👁 LIVE PREVIEW (В РЕАЛЬНОМ ВРЕМЕНИ)</span>
+                  <button id="browserMockBtn" class="btn btn-xs btn-outline">🌐 Открыть в Chrome</button>
+                </div>
+                <div class="preview-canvas">
+                  <div class="preview-box">
+                    <h1 id="htmlRenderOutput" class="preview-h1">Hello, Alfacomp World!</h1>
+                    <p class="preview-p">Живой просмотр без перезагрузки!</p>
+                    <button class="preview-btn">Интерактивная кнопка</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gemini AI Tab Content -->
+          <div id="tabContentGemini" class="tab-content">
+            <div class="gemini-mock-view">
+              <div class="gemini-modal">
+                <div class="gemini-modal-header">
+                  <span class="sparkle-icon">✨</span>
+                  <h3>Gemini 3.6 Flash — Alfacomp Secret AI (Ctrl+Shift+E)</h3>
+                </div>
+                <div class="gemini-options">
+                  <div class="option-item active">
+                    <span class="option-icon">✏️</span>
+                    <div>
+                      <strong>Изменить код в активном файле</strong>
+                      <p>Gemini напрямую переписывает открытый файл по вашей текстовой задаче</p>
+                    </div>
+                  </div>
+                  <div class="option-item">
+                    <span class="option-icon">💬</span>
+                    <div>
+                      <strong>Задать вопрос по коду</strong>
+                      <p>Подробный разбор алгоритмов, поиск багов и архитектурные советы</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="gemini-input-box">
+                  <label>Запрос к модели gemini-3.6-flash:</label>
+                  <div class="mock-input">«Добавь валидацию email и сохранение данных в SQLite»</div>
+                </div>
+
+                <div class="gemini-response-box">
+                  <div class="response-tag">✅ Gemini 3.6 обновил файл с поддержкой отмены (Ctrl+Z):</div>
+                  <pre><code><span class="token-keyword">import</span> sqlite3
+<span class="token-keyword">import</span> re
+
+<span class="token-keyword">def</span> <span class="token-func">save_user</span>(name, email):
+    <span class="token-keyword">if</span> <span class="token-keyword">not</span> re.match(<span class="token-string">r"[^@]+@[^@]+\.[^@]+"</span>, email):
+        <span class="token-keyword">raise</span> ValueError(<span class="token-string">"Неверный формат email!"</span>)
+    ...</code></pre>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Features (Bento Grid) -->
+  <section id="features" class="features-section">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag">ПОЧЕМУ ALFACOMP CODE</span>
+        <h2 class="section-title">Все инструменты современного разработчика в одном дистрибутиве</h2>
+        <p class="section-desc">Забудьте про часы настройки плагинов и поиск нужных расширений — всё уже настроено и оптимизировано.</p>
+      </div>
+
+      <div class="bento-grid">
+        <!-- Feature 1 -->
+        <div class="bento-card bento-wide">
+          <div class="card-icon-wrap violet-glow">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          </div>
+          <div class="card-content">
+            <span class="card-tag">УНИВЕРСАЛЬНЫЙ РАННЕР</span>
+            <h3>Запуск любого языка в 1 клик (F5 / ▶)</h3>
+            <p>Нажмите горячую клавишу <strong>F5</strong> или кнопку ▶ на панели. Редактор сам определит язык (Python, Node.js, HTML, TypeScript, C++) и выполнит его в терминале. Даже если вы только что открыли вкладку и не сохранили файл — он запустится без вопросов!</p>
+          </div>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="bento-card">
+          <div class="card-icon-wrap cyan-glow">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="9" y1="3" x2="9" y2="21"/></svg>
+          </div>
+          <div class="card-content">
+            <span class="card-tag">ИНТЕЛЛЕКТ TAB</span>
+            <h3>Ghost Text автодополнение</h3>
+            <p>Пишете <code>class Car:</code> — редактор серым цветом подсказывает готовый конструктор со всеми полями. Нажатие <kbd>Tab</kbd> мгновенно превращает подсказку в готовый код.</p>
+          </div>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="bento-card">
+          <div class="card-icon-wrap fuchsia-glow">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+          </div>
+          <div class="card-content">
+            <span class="card-tag">СЕКРЕТНЫЙ ИИ</span>
+            <h3>Gemini 3.6 Flash (Ctrl+Shift+E)</h3>
+            <p>Передовой искусственный интеллект от Google, встроенный прямо в ядро Alfacomp. Без VPN, без сложных регистраций — нажал кнопку и ИИ переписал ваш код или нашел баг.</p>
+          </div>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="bento-card">
+          <div class="card-icon-wrap emerald-glow">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </div>
+          <div class="card-content">
+            <span class="card-tag">ВЕРСТКА</span>
+            <h3>Интерактивный HTML Live Preview</h3>
+            <p>Умная вкладка предпросмотра обновляется в реальном времени прямо по мере набора текста. В один клик можно отправить результат в Chrome или Edge.</p>
+          </div>
+        </div>
+
+        <!-- Feature 5 -->
+        <div class="bento-card bento-wide">
+          <div class="card-icon-wrap blue-glow">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
+          </div>
+          <div class="card-content">
+            <span class="card-tag">РАБОЧИЙ ТЕРМИНАЛ</span>
+            <h3>Готовый терминал без блокировок Windows</h3>
+            <p>В Alfacomp интегрирован полный стек зависимостей (149 пакетов node_modules) и настроен обход ограничений PowerShell ExecutionPolicy. Никаких ошибок запуска — терминал готов к выполнению скриптов и установке пакетов.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Comparison Section -->
+  <section id="comparison" class="comparison-section">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag">ЧЕМ ОН ЛУЧШЕ</span>
+        <h2 class="section-title">Стандартный VS Code против Alfacomp Code</h2>
+        <p class="section-desc">Сравните сами, сколько времени экономит готовая сборка Alfacomp</p>
+      </div>
+
+      <div class="table-container">
+        <table class="comp-table">
+          <thead>
+            <tr>
+              <th>Функция / Возможность</th>
+              <th class="col-vanilla">Обычный VS Code</th>
+              <th class="col-alfacomp">⚡ Alfacomp Code</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Запуск Python / JS в 1 клик (F5)</td>
+              <td class="status-no">❌ Требует установки расширений и настройки launch.json</td>
+              <td class="status-yes">✅ Работает мгновенно по F5 или кнопке ▶</td>
+            </tr>
+            <tr>
+              <td>AI Ассистент Gemini 3.6 Flash</td>
+              <td class="status-no">❌ Отсутствует (платный Copilot за $10/мес)</td>
+              <td class="status-yes">✅ Встроен навсегда по горячей клавише Ctrl+Shift+E</td>
+            </tr>
+            <tr>
+              <td>Ghost Text автодополнение с Tab</td>
+              <td class="status-no">❌ Только базовые сниппеты</td>
+              <td class="status-yes">✅ Умный конструктор классов и генерация на лету</td>
+            </tr>
+            <tr>
+              <td>HTML Live Preview без плагинов</td>
+              <td class="status-no">❌ Нужно искать и ставить сторонние сервера</td>
+              <td class="status-yes">✅ Встроенная боковая панель с живым рендером</td>
+            </tr>
+            <tr>
+              <td>Автоматический шаблон HTML5</td>
+              <td class="status-no">❌ Пустой файл, нужно вводить ! и нажимать Tab</td>
+              <td class="status-yes">✅ Сам вставляет русский шаблон с заголовком и body</td>
+            </tr>
+            <tr>
+              <td>Терминал Windows PowerShell</td>
+              <td class="status-warn">⚠️ Часто блокируется политикой ExecutionPolicy</td>
+              <td class="status-yes">✅ Все ограничения сняты, запуск в 1 клик</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3 Steps Installation -->
+  <section class="steps-section">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag">КАК НАЧАТЬ</span>
+        <h2 class="section-title">Установка за 60 секунд</h2>
+      </div>
+
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-number">01</div>
+          <h3>Скачайте инсталлятор</h3>
+          <p>Нажмите на кнопку загрузки и сохраните файл <code>Code_Alfacomp.exe</code> с Яндекс.Диска.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">02</div>
+          <h3>Запустите установку</h3>
+          <p>Инсталлятор автоматически распакует все библиотеки и создаст удобный ярлык на Рабочем столе.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">03</div>
+          <h3>Пишите код с удовольствием</h3>
+          <p>Открывайте файлы, нажимайте <kbd>F5</kbd> для запуска и используйте <kbd>Ctrl+Shift+E</kbd> для вызова ИИ.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Big Download CTA Section -->
+  <section id="download" class="cta-section">
+    <div class="container">
+      <div class="cta-box">
+        <div class="cta-glow-bg"></div>
+        <img src="assets/logo.png" class="cta-logo" alt="Alfacomp Logo">
+        <h2 class="cta-title">Готовы писать код нового поколения?</h2>
+        <p class="cta-desc">Скачайте официальный инсталлятор Alfacomp Code прямо сейчас. Никаких подписок, скрытых платежей и ограничений.</p>
+
+        <div class="cta-action-group">
+          <a href="https://disk.yandex.ru/d/Z4YdxFvOU2fpBA" target="_blank" rel="noopener" class="btn btn-primary btn-cta-big glow-effect">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.901-1.799"/></svg>
+            <span>Скачать Code_Alfacomp.exe</span>
+          </a>
+        </div>
+
+        <div class="cta-info">
+          <span>📦 Размер: 341 МБ</span>
+          <span>•</span>
+          <span>💻 ОС: Windows 10, 11 (x64)</span>
+          <span>•</span>
+          <span>☁️ Яндекс.Диск</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="faq-section">
+    <div class="container faq-container">
+      <div class="section-header text-center">
+        <span class="section-tag">ВОПРОСЫ И ОТВЕТЫ</span>
+        <h2 class="section-title">Часто задаваемые вопросы</h2>
+      </div>
+
+      <div class="accordion">
+        <div class="accordion-item">
+          <button class="accordion-trigger">
+            <span>Нужен ли VPN для работы секретного Gemini 3.6 Flash?</span>
+            <span class="accordion-icon">+</span>
+          </button>
+          <div class="accordion-content">
+            <p>Нет! В Alfacomp Code уже встроен прямой защищенный ключ и подключение к API, поэтому ИИ отвечает молниеносно из любого региона без необходимости включать VPN или настраивать прокси.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-trigger">
+            <span>Как запускать программы на Python и JavaScript?</span>
+            <span class="accordion-icon">+</span>
+          </button>
+          <div class="accordion-content">
+            <p>Просто откройте файл и нажмите клавишу <strong>F5</strong> или зеленую кнопку <strong>▶ Запустить код</strong> в правом верхнем углу. Alfacomp автоматически откроет встроенный терминал и запустит ваш скрипт.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-trigger">
+            <span>Сохранятся ли мои настройки и расширения от обычного VS Code?</span>
+            <span class="accordion-icon">+</span>
+          </button>
+          <div class="accordion-content">
+            <p>Alfacomp Code работает параллельно со стандартным VS Code и использует собственные оптимизированные каталоги конфигурации. Вы можете безопасно держать обе программы на одном компьютере.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-trigger">
+            <span>Как работает автодополнение по клавише Tab?</span>
+            <span class="accordion-icon">+</span>
+          </button>
+          <div class="accordion-content">
+            <p>Когда вы объявляете класс в Python (например, <code>class Car:</code>) или функцию, редактор анализирует имя и контекст, выводя продолжение серым полупрозрачным текстом. Вам достаточно нажать клавишу <kbd>Tab</kbd>, чтобы этот фрагмент кода мгновенно заполнил файл.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <img src="assets/logo.png" class="footer-logo" alt="ALFACOMP">
+        <div>
+          <div class="footer-title">ALFACOMP CODE</div>
+          <div class="footer-copy">© 2026 ALFACOMP computers. Все права защищены.</div>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <a href="#features">Возможности</a>
+        <a href="#demo">Интерактивное Демо</a>
+        <a href="#comparison">Сравнение</a>
+        <a href="https://disk.yandex.ru/d/Z4YdxFvOU2fpBA" target="_blank" rel="noopener">Скачать с Яндекс.Диска</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
